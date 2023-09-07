@@ -5,7 +5,6 @@ void swap(int & a,int & b)
 	int temp=a;
 	a=b;
 	b=temp;
-	cout<<a<<endl<<b;
 }
 void main()
 {
@@ -16,5 +15,6 @@ void main()
 	cout<<"Enter n2 = ";
 	cin>>n2;
 	swap(n1,n2);
+	cout<<n1<<endl<<n2;
 	getch();
 }
